@@ -1,0 +1,9 @@
+
+.scrollbar-none::-webkit-scrollbar, body::-webkit-scrollbar{
+    display: none;
+}
+#root{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

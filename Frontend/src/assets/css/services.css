@@ -1,0 +1,20 @@
+.each-category:hover .each-category-hover-img{
+    opacity: 1;
+    /* scale: ; */
+
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    /* transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); */
+    /* transform: translate(105); */
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+
+.each-category:hover .each-category-hover-border{
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(17, 255, 0);
+    border-radius: 10px;
+    /* color: rgb(251, 255, 0); */
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ICM PROJECT</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+      window.botpressWebChat.init({
+          "composerPlaceholder": "Chat with bot",
+          "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+          "botId": "9442cbd5-4c9e-4603-bcc8-3986b9357d9f",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "9442cbd5-4c9e-4603-bcc8-3986b9357d9f",
+          "webhookId": "cde444fd-08e6-4848-b911-74fcf7b49364",
+          "lazySocket": true,
+          "themeName": "prism",
+          "frontendVersion": "v1",
+          "showPoweredBy": true,
+          "theme": "prism",
+          "themeColor": "#2563eb",
+          "allowedOrigins": []
+      });
+    </script>
+
+  </body>
+</html>
